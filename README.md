@@ -22,9 +22,6 @@ Before using this Terraform configuration, make sure you have Terraform installe
 
 1. Build the desired Docker Images and push them to Docker Hub
 2. Clone the repository to your local machine and enter the directory
-   ```
-   git@github.com:RTLX/terraform_staging_template.git
-   ```
 
 3. Adjust the `variables.tf`` file to customize the deployment settings:
    - Adjust the **default** sections of the following variables depeding on the needs of the project:
